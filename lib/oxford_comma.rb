@@ -9,7 +9,7 @@ def oxford_comma(array)
         array.join(" and ")
       else
         closer = array.pop
-        array.join(", ") + "and #{closer}"
+        array.join(", ") + ", and #{closer}"
     end
 
   end
